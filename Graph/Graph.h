@@ -1,3 +1,4 @@
+//未完善版本，可处理容量较小
 #pragma once
 #ifndef _GRAPH_H_
 #define _GRAPH_H_
@@ -310,11 +311,3 @@ bool Graph<Tv, Te>::DFS_Search(int start, int goal)
 }
 
 #endif //_GRAPH_H_
-
-//加入无向图（重新建个类吧...）
-//删除边、节点操作 ——删除边已完成
-//增加不同图示之间的转化 ——已完成AD到ED转换
-//DFS BFS算法 ——已完成BFS的单连通分割，DFS道路搜索
-//Prim Dijkstra算法
-//可以考虑写一写运算[]——已完成 目前还不可修改
-//急需解决边列表中可能重复的问题（这样会导致矩阵和边列表可能不一致）——删除时将（a，b）之间的连边全部删去
